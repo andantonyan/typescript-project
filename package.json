@@ -1,0 +1,19 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "dependencies": {
+    "typescript-shared": "github:andantonyan/typescript-shared"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
